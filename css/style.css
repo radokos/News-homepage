@@ -10,6 +10,29 @@ nav{
     display:flex;
     flex-direction: column;
     display:none;
+    width: 65%;
+    text-align: left;
+    padding-left: 8%;
+    height: 100vh;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 35%;
+    background-color: white;
+}
+.nav-top img{
+    margin: 1.2778rem 0 4rem;
+    float: right;
+    margin-right: 1rem;
+}
+.nav-top li{
+    list-style: none;
+    clear: both;
+    margin-bottom: 2rem;
+}
+.nav-top a{
+    text-decoration: none;
+    color: #000000d4;
 }
 
 /*MAIN*/
@@ -87,6 +110,29 @@ footer p{
     color: #2f3037f0;
 }
 
+/*ACTIVE STATES*/
+.nav-top a:hover,
+.nav-top a:active{
+    color:#eda8a5;
+}
+.hamburger:hover,
+.cross:hover{
+    cursor: pointer;
+}
+aside h2:hover,
+aside h2:active{
+    color: #e3ab55;
+    cursor: pointer;
+}
+section a:hover,
+section a:active{
+   background: #00001a;
+}
+footer h3:hover,
+footer h3:active{
+    color:#e75c5b;
+    cursor: pointer;
+}
 /*media queries*/
 
 @media ( max-width:1147px){
