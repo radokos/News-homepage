@@ -1,0 +1,48 @@
+/**
+ * GENERAL
+ */
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    font-kerning: auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    line-height: 1.15;
+}
+body,
+html {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+input,
+button {
+    all: unset;
+    color: black;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: 1;
+}
+
+.container{
+    padding:0 1rem;
+    max-width:1200px;
+    min-width: 360px;
+    margin:0 auto;
+}
